@@ -1,3 +1,9 @@
+# web-crawler
+
+=======
+
+> > > > > > > f5e186a (initial commit)
+
 # Stateless Web Crawler Backend
 
 This is a Node.js + TypeScript crawler backend built around BullMQ and Redis.
@@ -104,7 +110,11 @@ Request:
 Response:
 
 ```json
-{ "jobId": "c2a1f3...", "statusUrl": "/crawl/c2a1f3...", "resultsUrl": "/results/c2a1f3..." }
+{
+  "jobId": "c2a1f3...",
+  "statusUrl": "/crawl/c2a1f3...",
+  "resultsUrl": "/results/c2a1f3..."
+}
 ```
 
 ### `GET /crawl/:id`
@@ -223,3 +233,7 @@ Point both services at the same Redis instance. You can use either a managed Red
 - Add metrics and tracing for queue depth, fetch latency, and error rates.
 - Add allow/deny lists if you only want to crawl approved domains.
 - If you need stronger domain matching, switch from hostname matching to eTLD+1 matching.
+  <<<<<<< HEAD
+  =======
+  > > > > > > > 8cf293d (initial commit)
+  > > > > > > > f5e186a (initial commit)
